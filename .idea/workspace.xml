@@ -41,17 +41,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="8">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -59,7 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/src/document.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="133">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -72,6 +73,51 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="562">
               <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ios/Classes/FlutterPluginPdfViewerPlugin.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-432">
+              <caret line="2" column="60" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/main/java/pt/tribeiro/flutter_plugin_pdf_viewer/FlutterPluginPdfViewerPlugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1341">
+              <caret line="104" column="55" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/flutter_plugin_pdf_viewer.dart">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/viewer.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1732">
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/page.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-28">
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -270,6 +316,46 @@
               <item name="flutter_plugin_pdf_viewer" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_plugin_pdf_viewer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="flutter_plugin_pdf_viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_plugin_pdf_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_plugin_pdf_viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_plugin_pdf_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_plugin_pdf_viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_plugin_pdf_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="flutter_plugin_pdf_viewer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_plugin_pdf_viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_plugin_pdf_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_plugin_pdf_viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_plugin_pdf_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_plugin_pdf_viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_plugin_pdf_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_plugin_pdf_viewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_plugin_pdf_viewer" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -433,14 +519,15 @@
     <entry file="file://$PROJECT_DIR$/example/android/app/src/main/java/pt/tribeiro/flutter_pdf_viewer_example/MainActivity.java" />
     <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="8">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/document.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="133">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -456,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

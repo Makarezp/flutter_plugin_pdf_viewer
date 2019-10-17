@@ -102,6 +102,7 @@ public class FlutterPluginPdfViewerPlugin implements MethodCallHandler {
         try {
             String fileName = String.format("%s-%d.png", filePath, page);
             file = File.createTempFile(fileName, null, instance.context().getCacheDir());
+            file.deleteOnExit();
             FileOutputStream out = new FileOutputStream(file);
             bmp.compress(Bitmap.CompressFormat.PNG, 100, out);
             out.flush();
