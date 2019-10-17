@@ -39,14 +39,16 @@ static NSString* kFileName = @"";
     }
     CGPDFDocumentRef SourcePDFDocument = CGPDFDocumentCreateWithURL((__bridge CFURLRef)sourcePDFUrl);
     size_t numberOfPages = CGPDFDocumentGetNumberOfPages(SourcePDFDocument);
-    NSString *filePathAndDirectory = [NSTemporaryDirectory() stringByAppendingPathComponent:kDirectory];
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *filePathAndDirectory = [documentsDirectory stringByAppendingPathComponent:kDirectory];
     NSError *error;
 
-//    // Clear cache folder
-//    if ([[NSFileManager defaultManager] fileExistsAtPath:filePathAndDirectory]) {
-//        NSLog(@"[FlutterPluginPDFViewer] Removing old documents cache");
-//        [[NSFileManager defaultManager] removeItemAtPath:filePathAndDirectory error:&error];
-//    }
+    // Clear cache folder
+    if ([[NSFileManager defaultManager] fileExistsAtPath:filePathAndDirectory]) {
+        NSLog(@"[FlutterPluginPDFViewer] Removing old documents cache");
+        [[NSFileManager defaultManager] removeItemAtPath:filePathAndDirectory error:&error];
+    }
 
     if (![[NSFileManager defaultManager] createDirectoryAtPath:filePathAndDirectory
                                    withIntermediateDirectories:YES
@@ -74,7 +76,9 @@ static NSString* kFileName = @"";
     }
     CGPDFDocumentRef SourcePDFDocument = CGPDFDocumentCreateWithURL((__bridge CFURLRef)sourcePDFUrl);
     size_t numberOfPages = CGPDFDocumentGetNumberOfPages(SourcePDFDocument);
-    NSString *filePathAndDirectory = [NSTemporaryDirectory() stringByAppendingPathComponent:kDirectory];
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *filePathAndDirectory = [documentsDirectory stringByAppendingPathComponent:kDirectory];
     NSError *error;
 
     if (pageNumber > numberOfPages) {
@@ -92,7 +96,7 @@ static NSString* kFileName = @"";
     CGPDFPageRef SourcePDFPage = CGPDFDocumentGetPage(SourcePDFDocument, pageNumber);
     CGPDFPageRetain(SourcePDFPage);
     NSString *relativeOutputFilePath = [NSString stringWithFormat:@"%@/%@-%d.png", kDirectory, kFileName, (int)pageNumber];
-    NSString *imageFilePath = [NSTemporaryDirectory() stringByAppendingPathComponent:relativeOutputFilePath];
+    NSString *imageFilePath = [documentsDirectory stringByAppendingPathComponent:relativeOutputFilePath];
     CGRect sourceRect = CGPDFPageGetBoxRect(SourcePDFPage, kCGPDFMediaBox);
     UIGraphicsBeginPDFContextToFile(imageFilePath, sourceRect, nil);
     // Calculate resolution
