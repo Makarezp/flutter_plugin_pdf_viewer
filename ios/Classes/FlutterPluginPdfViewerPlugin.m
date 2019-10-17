@@ -44,12 +44,6 @@ static NSString* kFileName = @"";
     NSString *filePathAndDirectory = [documentsDirectory stringByAppendingPathComponent:kDirectory];
     NSError *error;
 
-    // Clear cache folder
-    if ([[NSFileManager defaultManager] fileExistsAtPath:filePathAndDirectory]) {
-        NSLog(@"[FlutterPluginPDFViewer] Removing old documents cache");
-        [[NSFileManager defaultManager] removeItemAtPath:filePathAndDirectory error:&error];
-    }
-
     if (![[NSFileManager defaultManager] createDirectoryAtPath:filePathAndDirectory
                                    withIntermediateDirectories:YES
                                                     attributes:nil
